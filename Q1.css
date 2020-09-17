@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-text {
+  margin: 10px;
+}
+.header {
+  font-size: 48px;
+  font-weight: bold;
+}
+.info-section {
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 200px;
+}
+
+.flex-container > div {
+  background-color: #fff;
+  margin: 10px;
+  border: 1px solid grey;
+  min-width: 200px;
+  border-radius: 7px;
+}
+
+button {
+  background-color: #4da7fb;
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.popup {
+  background: #fff;
+  overflow: hidden;
+  color: #000;
+  line-height: 50px;
+  transition: all 1s ease-in-out;
+  height: 0;
+}
+
+.popup:target {
+  height: 500px;
+}
+
+.offer-tile {
+  padding: 20px;
+  text-align: left !important;
+  line-height: 25px;
+}
+.offer-tile h2,
+p {
+  margin: 0;
+}
+.offer-tile span {
+  font-weight: 900;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.price h2 {
+  margin-right: 10px;
+  margin-bottom: 25px;
+  font-size: 2.5em;
+}
+.offer-tile label {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.validity {
+  color: #9a9898;
+  font-size: 0.85em;
+}
+.offer-tile button {
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.popup-launcher {
+  margin: auto;
+  padding: 30px;
+  top: 35%;
+  left: 35%;
+}
